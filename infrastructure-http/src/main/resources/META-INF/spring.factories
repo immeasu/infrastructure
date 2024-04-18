@@ -1,0 +1,2 @@
+org.springframework.context.ApplicationListener=\
+com.freemud.eden.http.listener.FeignConfigListener
