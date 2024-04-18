@@ -6,7 +6,6 @@
         <artifactId>infrastructure</artifactId>
         <version>1.0.0.RELEASE</version>
     </parent>
-    <groupId>com.infrastructure</groupId>
     <artifactId>infrastructure-rpc</artifactId>
     <dependencies>
         <dependency>
@@ -18,4 +17,32 @@
             <artifactId>infrastructure-core</artifactId>
         </dependency>
     </dependencies>
+
+    <url>https://github.com/immeasu/infrastructure</url>
+    <scm>
+        <!--项目访问url -->
+        <url>https://github.com/immeasu/infrastructure</url>
+        <!--项目访问url.git结尾 -->
+        <connection>scm:git:https://github.com/immeasu/infrastructure.git</connection>
+        <!--项目访问url.git结尾 -->
+        <developerConnection>scm:git:https://github.com/immeasu/infrastructure.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>immeasu</id>
+            <name>immeasu</name>
+            <email>immeasu@163.com</email>
+            <!--项目访问url -->
+            <url>https://github.com/immeasu/infrastructure</url>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 </project>
